@@ -1,5 +1,7 @@
 # Camera Mounts
 
+English | [简体中文](README_zh.md)
+
 Camera mount CAD files for B601 robots and data collection setups, plus a USDZ environment asset.
 
 ## Choose an asset
@@ -48,7 +50,7 @@ Camera mount identified as D435 / Gemini 2 in the source filename. The upstream 
 
 [Download D455f_Mount.step](b601-camera-mounts/D455f_Mount.step)
 
-Camera mount identified as D455f in the source filename. The model shows an elongated support with mounting holes and a reinforcing section underneath. Open the STEP model to inspect the mounting geometry. The preview below is rendered directly from the supplied STEP geometry.
+Camera mount identified as D455f in the source filename. The model shows an elongated support with mounting holes and a reinforcing section underneath. Open the STEP model to inspect the mounting geometry. The preview above is rendered directly from the supplied STEP geometry.
 
 ### UVC32 mount
 
@@ -58,7 +60,7 @@ Camera mount identified as D455f in the source filename. The model shows an elon
 
 [Download UVC32_mount.step](b601-camera-mounts/UVC32_mount.step)
 
-Camera mount identified as UVC32 in the source filename. The model shows a camera plate with a rectangular opening, connected to a curved mounting base. Open the STEP model to inspect the mounting geometry. The preview below is rendered directly from the supplied STEP geometry.
+Camera mount identified as UVC32 in the source filename. The model shows a camera plate with a rectangular opening, connected to a curved mounting base. Open the STEP model to inspect the mounting geometry. The preview above is rendered directly from the supplied STEP geometry.
 
 ## Data collection camera mounts
 
@@ -85,7 +87,7 @@ Camera mount design 1 has a tall, tapered support body with a stepped upper inte
 - [reBot adapter](data-collection-camera-mounts/mount-1-rebot-adapter.stp): a plate-shaped insert with an opening and an offset attachment section, named “mount 1 rebot insert” upstream.
 - [SO-ARM adapter](data-collection-camera-mounts/mount-1-soarm-adapter.stp): an offset plate-shaped insert, named “mount 1 soarm insert” upstream.
 
-Select the adapter corresponding to your setup and inspect the interface in CAD. The previews below show the mount and each adapter as separate CAD parts.
+Select the adapter corresponding to your setup and inspect the interface in CAD. The previews above show the mount and each adapter as separate CAD parts.
 
 ### Mount 2
 
@@ -99,7 +101,7 @@ Select the adapter corresponding to your setup and inspect the interface in CAD.
 
 [Download mount-2.stp](data-collection-camera-mounts/mount-2.stp)
 
-Camera mount design 2 has a tapered support body with a different upper interface from design 1. A separate [SO-ARM adapter](data-collection-camera-mounts/mount-2-soarm-adapter.stp) is supplied, identified upstream as the mount 2 soarm insert. Inspect the two models together to determine how they connect. The previews below show the mount and its adapter as separate CAD parts.
+Camera mount design 2 has a tapered support body with a different upper interface from design 1. A separate [SO-ARM adapter](data-collection-camera-mounts/mount-2-soarm-adapter.stp) is supplied, identified upstream as the mount 2 soarm insert. Inspect the two models together to determine how they connect. The previews above show the mount and its adapter as separate CAD parts.
 
 ### Mount 3
 
@@ -113,7 +115,7 @@ Camera mount design 2 has a tapered support body with a different upper interfac
 
 [Download mount-3.stp](data-collection-camera-mounts/mount-3.stp)
 
-Camera mount design 3 has a tapered support body and a rectangular raised section at the top. The [mount 3 / 4 adapter](data-collection-camera-mounts/mount-3-4-adapter.stp) is identified by its upstream filename as the shared insert for designs 3 and 4. The previews below show this mount and the shared adapter as separate CAD parts.
+Camera mount design 3 has a tapered support body and a rectangular raised section at the top. The [mount 3 / 4 adapter](data-collection-camera-mounts/mount-3-4-adapter.stp) is identified by its upstream filename as the shared insert for designs 3 and 4. The previews above show this mount and the shared adapter as separate CAD parts.
 
 ### Mount 4
 
@@ -123,7 +125,7 @@ Camera mount design 3 has a tapered support body and a rectangular raised sectio
 
 [Download mount-4.stp](data-collection-camera-mounts/mount-4.stp)
 
-Camera mount design 4 has a tapered support body with a broad, recessed top interface. Its associated part is the same [mount 3 / 4 adapter](data-collection-camera-mounts/mount-3-4-adapter.stp). Inspect the CAD geometry to compare designs 3 and 4 before choosing one. The preview below shows the supplied CAD part.
+Camera mount design 4 has a tapered support body with a broad, recessed top interface. Its associated part is the same [mount 3 / 4 adapter](data-collection-camera-mounts/mount-3-4-adapter.stp). Inspect the CAD geometry to compare designs 3 and 4 before choosing one. The preview above shows the supplied CAD part.
 
 ### Original-to-English filename mapping
 
