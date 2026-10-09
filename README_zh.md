@@ -68,7 +68,7 @@
 
 | 版本 | 结构 | 文件 |
 | --- | --- | --- |
-| V1 | 3D 打印支架主体及摄像头适配件 | 下方的 4 款编号支架和 4 个适配件 |
+| [V1](data-collection-camera-mounts/V1/) | 3D 打印支架主体及摄像头适配件 | 下方的 4 款编号支架和 4 个适配件 |
 | [V2](#v2铝型材摄像头支架) | 铝型材主体＋3D 打印摄像头支架 | 1 个完整 STEP 装配 |
 
 V1 来自上游 [Camera-Mount 仓库](https://github.com/xiehuangbao888/Camera-Mount)，提供 4 款编号支架和 4 个对应的适配件，配件对应关系按原始文件名保留。上游没有提供装配说明或实物照片，完整装配效果及摄像头适配情况尚未验证。V2 由本仓库维护者提供，主体改用铝型材。
@@ -79,19 +79,19 @@ V1 来自上游 [Camera-Mount 仓库](https://github.com/xiehuangbao888/Camera-M
 
 *支架 1 主体。*
 
-[下载 mount-1.stp](data-collection-camera-mounts/mount-1.stp)
+[下载 mount-1.stp](data-collection-camera-mounts/V1/mount-1.stp)
 
 主体为较高的渐缩支撑结构，上端设有阶梯状连接接口。配套提供两个独立适配件，可根据实际机械臂选择，并在 CAD 软件中检查连接关系。
 
 ![支架 1 reBot 适配件模型预览](images/mount-1-rebot-adapter.png)
 
-[下载 reBot 适配件](data-collection-camera-mounts/mount-1-rebot-adapter.stp)
+[下载 reBot 适配件](data-collection-camera-mounts/V1/mount-1-rebot-adapter.stp)
 
 reBot 适配件为带开口和偏置连接部分的板状零件，对应上游的“支架1插件rebot”。
 
 ![支架 1 SO-ARM 适配件模型预览](images/mount-1-soarm-adapter.png)
 
-[下载 SO-ARM 适配件](data-collection-camera-mounts/mount-1-soarm-adapter.stp)
+[下载 SO-ARM 适配件](data-collection-camera-mounts/V1/mount-1-soarm-adapter.stp)
 
 SO-ARM 适配件为偏置板状零件，对应上游的“支架1插件soarm”。以上图片分别展示主体和配件，未进行装配验证。
 
@@ -99,13 +99,13 @@ SO-ARM 适配件为偏置板状零件，对应上游的“支架1插件soarm”�
 
 ![支架 2 模型预览](images/mount-2.png)
 
-[下载 mount-2.stp](data-collection-camera-mounts/mount-2.stp)
+[下载 mount-2.stp](data-collection-camera-mounts/V1/mount-2.stp)
 
 主体为渐缩支撑结构，上端连接接口与支架 1 不同。配套提供一个 SO-ARM 适配件。
 
 ![支架 2 SO-ARM 适配件模型预览](images/mount-2-soarm-adapter.png)
 
-[下载 SO-ARM 适配件](data-collection-camera-mounts/mount-2-soarm-adapter.stp)
+[下载 SO-ARM 适配件](data-collection-camera-mounts/V1/mount-2-soarm-adapter.stp)
 
 此配件对应上游的“支架2插件soarm”。请同时打开主体和适配件模型，检查连接方式及间隙。
 
@@ -113,13 +113,13 @@ SO-ARM 适配件为偏置板状零件，对应上游的“支架1插件soarm”�
 
 ![支架 3 模型预览](images/mount-3.png)
 
-[下载 mount-3.stp](data-collection-camera-mounts/mount-3.stp)
+[下载 mount-3.stp](data-collection-camera-mounts/V1/mount-3.stp)
 
 主体为渐缩支撑结构，顶部具有矩形凸起部分。根据上游文件名，支架 3 和支架 4 使用同一个适配件。
 
 ![支架 3 / 4 共用适配件模型预览](images/mount-3-4-adapter.png)
 
-[下载支架 3 / 4 共用适配件](data-collection-camera-mounts/mount-3-4-adapter.stp)
+[下载支架 3 / 4 共用适配件](data-collection-camera-mounts/V1/mount-3-4-adapter.stp)
 
 此配件对应上游的“支架3_4插件”。图片分别展示支架主体及共用配件。
 
@@ -127,9 +127,9 @@ SO-ARM 适配件为偏置板状零件，对应上游的“支架1插件soarm”�
 
 ![支架 4 模型预览](images/mount-4.png)
 
-[下载 mount-4.stp](data-collection-camera-mounts/mount-4.stp)
+[下载 mount-4.stp](data-collection-camera-mounts/V1/mount-4.stp)
 
-主体为渐缩支撑结构，顶部具有较宽的内凹接口。对应配件为上述[支架 3 / 4 共用适配件](data-collection-camera-mounts/mount-3-4-adapter.stp)。选择前可在 CAD 软件中比较支架 3 和支架 4 的接口几何。
+主体为渐缩支撑结构，顶部具有较宽的内凹接口。对应配件为上述[支架 3 / 4 共用适配件](data-collection-camera-mounts/V1/mount-3-4-adapter.stp)。选择前可在 CAD 软件中比较支架 3 和支架 4 的接口几何。
 
 ### V2：铝型材摄像头支架
 
@@ -147,14 +147,14 @@ V2 为铝型材主体＋3D 打印摄像头支架的数据采集支架；V1 使�
 
 | 原始文件名 | 英文文件名 |
 | --- | --- |
-| `数据采集摄像头支架_支架1.stp` | [`mount-1.stp`](data-collection-camera-mounts/mount-1.stp) |
-| `数据采集摄像头支架_支架1插件rebot.stp` | [`mount-1-rebot-adapter.stp`](data-collection-camera-mounts/mount-1-rebot-adapter.stp) |
-| `数据采集摄像头支架_支架1插件soarm.stp` | [`mount-1-soarm-adapter.stp`](data-collection-camera-mounts/mount-1-soarm-adapter.stp) |
-| `数据采集摄像头支架_支架2.stp` | [`mount-2.stp`](data-collection-camera-mounts/mount-2.stp) |
-| `数据采集摄像头支架_支架2插件soarm.stp` | [`mount-2-soarm-adapter.stp`](data-collection-camera-mounts/mount-2-soarm-adapter.stp) |
-| `数据采集摄像头支架_支架3.stp` | [`mount-3.stp`](data-collection-camera-mounts/mount-3.stp) |
-| `数据采集摄像头支架_支架3_4插件.stp` | [`mount-3-4-adapter.stp`](data-collection-camera-mounts/mount-3-4-adapter.stp) |
-| `数据采集摄像头支架_支架4.stp` | [`mount-4.stp`](data-collection-camera-mounts/mount-4.stp) |
+| `数据采集摄像头支架_支架1.stp` | [`mount-1.stp`](data-collection-camera-mounts/V1/mount-1.stp) |
+| `数据采集摄像头支架_支架1插件rebot.stp` | [`mount-1-rebot-adapter.stp`](data-collection-camera-mounts/V1/mount-1-rebot-adapter.stp) |
+| `数据采集摄像头支架_支架1插件soarm.stp` | [`mount-1-soarm-adapter.stp`](data-collection-camera-mounts/V1/mount-1-soarm-adapter.stp) |
+| `数据采集摄像头支架_支架2.stp` | [`mount-2.stp`](data-collection-camera-mounts/V1/mount-2.stp) |
+| `数据采集摄像头支架_支架2插件soarm.stp` | [`mount-2-soarm-adapter.stp`](data-collection-camera-mounts/V1/mount-2-soarm-adapter.stp) |
+| `数据采集摄像头支架_支架3.stp` | [`mount-3.stp`](data-collection-camera-mounts/V1/mount-3.stp) |
+| `数据采集摄像头支架_支架3_4插件.stp` | [`mount-3-4-adapter.stp`](data-collection-camera-mounts/V1/mount-3-4-adapter.stp) |
+| `数据采集摄像头支架_支架4.stp` | [`mount-4.stp`](data-collection-camera-mounts/V1/mount-4.stp) |
 | `数据采集摄像头支架.stp`（V2，维护者提供） | [`data-collection-camera-mount-v2.stp`](data-collection-camera-mounts/data-collection-camera-mount-v2.stp) |
 
 ## 数据采集环境

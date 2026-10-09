@@ -41,7 +41,7 @@ parser.add_argument('sources', nargs='*', type=Path,
                     help='Render selected STEP/STP files; omit to render all assets.')
 args = parser.parse_args()
 sources = args.sources or [source for folder in ['b601-camera-mounts', 'data-collection-camera-mounts']
-                          for source in sorted((ROOT/folder).iterdir())
+                          for source in sorted((ROOT/folder).rglob('*'))
                           if source.suffix.lower() in {'.step', '.stp'}]
 for source in sources:
     shape = cq.importers.importStep(str(source)).val()
